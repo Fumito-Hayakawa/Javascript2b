@@ -1,0 +1,27 @@
+.contents {
+    width: 300px;
+    height: 800px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#result {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.numButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.numButton input + input {
+    margin-left: 5px;
+}
+.numButton input{
+    background-color: silver;
+    width: 24%;
+}
+
